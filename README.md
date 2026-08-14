@@ -2,6 +2,11 @@
 
 > Реализация: Google Colab (Jupyter Notebook), PyTorch, GPU (T4)
 
+## Технологии
+
+- Python, PyTorch, torchvision
+- Google Colab (GPU T4)
+- matplotlib, seaborn, scikit-learn, PIL
 ## О проекте
 
 Нейросетевая модель бинарной классификации изображений, которая определяет,
@@ -111,9 +116,3 @@ Train Loss при этом падает до ~0.01–0.06, что указыва
 ### Инференс
 - Экспортировать модель в формат ONNX / TorchScript для переноса в продакшен;
 - Предусмотреть обработку изображений с несколькими знаками (детекция).
-
-## Технологии
-
-- Python, PyTorch, torchvision
-- Google Colab (GPU T4)
-- matplotlib, seaborn, scikit-learn, PIL
